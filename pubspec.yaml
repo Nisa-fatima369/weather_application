@@ -1,0 +1,35 @@
+name: weather_application
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  http: ^1.2.0
+  geolocator: ^10.1.0
+  permission_handler: ^11.2.0
+  intl:
+  cached_network_image: ^3.3.1 
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.13.1
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/weather.png"
+  background_color: "#ffffff"
+  min_sdk_android: 21 
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/

@@ -1,38 +1,67 @@
-# Flutter Weather Application
+# **Weather App**
+Introducing weather application crafted using the Flutter framework. This app provides real-time weather data for your current location, including temperature, wind speed, cloud condition and humidity.
 
-Welcome to the Flutter Weather Application! This mobile app allows users to check the current weather conditions and forecasts for different locations.
-
-## Features
-
-- **Real-time Weather Information**: Get accurate and up-to-date weather details for your selected location.
-- **Forecast**: View weather forecasts for the upcoming days.
-- **User-friendly Interface**: The app is designed with a clean and intuitive interface for a seamless user experience.
-- **API Integration**: Utilizes a weather API to fetch real-time weather data.
-
-## Screenshots
-![WhatsApp Image 2024-02-17 at 18 04 50_d63fbf1d](https://github.com/Nisa-fatima369/weather_application/assets/61825717/1a163fd0-83e8-4bcc-8b20-0d7df69ab5cc)
-![WhatsApp Image 2024-02-17 at 18 04 50_d650fa07](https://github.com/Nisa-fatima369/weather_application/assets/61825717/f8e74298-bb26-44af-a8eb-d9aa2928ae36)
-![WhatsApp Image 2024-02-17 at 18 04 50_f9ef3852](https://github.com/Nisa-fatima369/weather_application/assets/61825717/71308e5e-dadb-4b72-b19b-d30367a204fb)
+<img src="https://github.com/Nisa-fatima369/weather_application/blob/9683a09cbf8541de6541d45a399762d700e2bae0/assets/Weather%20app.png" alt="mvvm" width="100%" style="max-width: 640px; height: auto;">
 
 
-## Getting Started
+## 💻 Installation Steps
+Open CMD where you want to clone the project and run the following commands:
+```bash
+# Clone the repository
+git clone https://github.com/Nisa-fatima369/weather_application.git
 
-Follow these steps to set up the Flutter Weather Application:
+# Navigate to the project directory
+cd weather_application
 
-1. Clone the repository:
-https://github.com/Nisa-fatima369/weather_application
+# Install dependencies
+flutter packages get
 
-3. Install dependencies:
-flutter pub get
-
-3. Run the app:
+# Run the app
 flutter run
+```
 
-**API Integration**
-This app uses Weather API to fetch weather data. You'll need to sign up for an API key and replace it in the code where necessary.
+## 🔗 API Information
+API Used: [OpenWeatherMap API](https://openweathermap.org/api)
 
-**Contributing**
-Contributions are welcome! If you find a bug or have an enhancement in mind, please open an issue or create a pull request.
+Note: To use the API, you'll need to register an account and obtain your own API key.
 
+## 🎯 Features  
+✅ Current weather updates, including condition and temperature  
+✅ Detailed 5-day weather forecast  
+✅ City search functionality for personalized weather information  
+✅ Hourly weather forecasts for accurate planning  
+✅ Weekly weather forecast for extended outlook  
+
+## 📦 Packages in use
+- http
+- geolocator
+- permission handler
+- intl
+- cached network image
+
+## 🔑 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## ☺️ Author
+**NISA FATIMA**
+
+As a Flutter developer, I'm deeply passionate about creating innovative solutions with code.
+Feel free to connect with me on social media:
+
+<div id="badges">
+  <a href="https://www.linkedin.com/in/nisa-fatima369">
+    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
+  </a>
+  <a href="https://www.instagram.com/nisafatima_369">
+    <img src="https://img.shields.io/badge/Instagram-red?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram Badge"/>
+  </a>
+  <a href="https://www.facebook.com/nisafatima369?mibextid=ZbWKwL">
+    <img src="https://img.shields.io/badge/Facebook-aqua?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook Badge"/>
+  </a>
+</div>
+
+I'm always open to collaborations and new projects, so don't hesitate to reach out.
+
+If you liked the repo then kindly support it by giving it a star ⭐.
 
 
